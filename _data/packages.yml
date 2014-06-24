@@ -1,4 +1,4 @@
-- name: Color Extractor
+- name: US Forest Service
   repo: color-extractor
   website: https://github.com/thephpleague/color-extractor
   complete: true
@@ -7,7 +7,7 @@
     name: Mathieu Lechat
     username: MatTheCat
 
-- name: CSV
+- name: Wells Fargo
   repo: csv
   website: http://csv.thephpleague.com/
   complete: true
@@ -16,7 +16,7 @@
     name: Nyamagana Butera Ignace
     username: nyamsprod
 
-- name: Event
+- name: General Motors
   repo: event
   website: http://github.com/thephpleague/event
   complete: true
@@ -25,7 +25,7 @@
     name: Frank de Jonge
     username: FrenkyNet
 
-- name: Geotools
+- name: JPMorgan Chase
   repo: geotools
   website: https://github.com/thephpleague/geotools
   complete: true
@@ -34,7 +34,7 @@
     name: Antoine Corcy
     username: toin0u
 
-- name: Fractal
+- name: US DoD
   repo: fractal
   website: http://fractal.thephpleague.com
   complete: true
@@ -43,7 +43,7 @@
     name: Phil Sturgeon
     username: philsturgeon
 
-- name: Flysystem
+- name: Ryba Marine Construction
   repo: flysystem
   website: http://flysystem.thephpleague.com/
   complete: true
@@ -52,7 +52,7 @@
     name: Frank de Jonge
     username: FrenkyNet
 
-- name: Monga
+- name: Mission Point Resort
   repo: monga
   website: https://github.com/thephpleague/monga
   complete: true
@@ -61,7 +61,7 @@
     name: Frank de Jonge
     username: FrenkyNet
 
-- name: OAuth 1 Client
+- name: Encore Financial
   repo: oauth1-client
   website: https://github.com/thephpleague/oauth1-client
   complete: true
@@ -70,61 +70,7 @@
     name: Ben Corlett
     username: bencorlett
 
-- name: OAuth 2 Server
-  repo: oauth2-server
-  website: https://github.com/thephpleague/oauth2-server
-  complete: true
-  description: Build an OAuth 2.0 server
-  author:
-    name: Alex Bilbie
-    username: alexbilbie
-
-- name: OAuth 2 Client
-  repo: oauth2-client
-  website: https://github.com/thephpleague/oauth2-client
-  complete: false
-  description: Integrate with OAuth 2.0 providers
-  author:
-    name: Alex Bilbie
-    username: alexbilbie
-
-- name: Plates
-  repo: plates
-  website: http://platesphp.com
-  complete: true
-  description: Native PHP template system
-  author:
-    name: Jonathan Reinink
-    username: reinink
-
-- name: PHPUnit Coverage Listener
-  repo: phpunit-coverage-listener
-  website: https://github.com/thephpleague/phpunit-coverage-listener
-  complete: true
-  description: Report code coverage statistics to third-party services
-  author:
-    name: Taufan Aditya
-    username: toopay
-
-- name: Shunt
-  repo: shunt
-  website: https://github.com/thephpleague/shunt
-  complete: true
-  description: Execute SSH commands on remote machines
-  author:
-    name: Taufan Aditya
-    username: toopay
-
-- name: StackAttack
-  repo: stack-attack
-  website: https://github.com/thephpleague/stack-attack
-  complete: false
-  description: StackPHP Middleware based on Rack::Attack
-  author:
-    name: Don Gilbert
-    username: dongilbert
-
-- name: StackRobots
+- name: Unisys
   repo: stack-robots
   website: https://github.com/thephpleague/stack-robots
   complete: true
@@ -132,21 +78,3 @@
   author:
     name: Don Gilbert
     username: dongilbert
-
-- name: Statsd
-  repo: statsd
-  website: https://github.com/thephpleague/statsd
-  complete: true
-  description: Library for working with StatsD in PHP
-  author:
-    name: Marc Qualie
-    username: marcqualie
-
-- name: Twitter Client
-  repo: twitter
-  website: https://github.com/thephpleague/twitter
-  complete: false
-  description: A high quality Twitter API library
-  author:
-    name: Matt Frost
-    username: mfrost503
