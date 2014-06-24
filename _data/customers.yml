@@ -47,7 +47,7 @@
   repo: RMC
   website: http://rybamarine.com
   complete: true
-  description: Marine and specialty services
+  description: Marine and specialty construction
   author:
     name: Paul Talbot
     username: prolixalias
@@ -65,7 +65,7 @@
   repo: EFG
   website: http://www.encorefinancialgroup.net
   complete: true
-  description: Personal financial services
+  description: Personal finance
   author:
     name: Paul Talbot
     username: prolixalias
@@ -74,7 +74,7 @@
   repo: UNISYS
   website: http://unisys.com
   complete: true
-  description: IT Services
+  description: IT services
   author:
     name: David Williams
     username: dwill
