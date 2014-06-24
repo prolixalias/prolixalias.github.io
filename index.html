@@ -1,0 +1,148 @@
+---
+title: The League of Extraordinary Packages
+---
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="The League of Extraordinary Packages has one driving mission, to track down and develop PHP packages of the highest quality possible, using modern tools, standards and practices to distribute, test and strengthen the code.">
+    <meta property="og:title" content="The League of Extraordinary Packages" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://thephpleague.com" />
+    <meta property="og:image" content="http://thephpleague.com/img/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+<div class="introduction">
+    <div class="center">
+        <a href="" class="logo">
+            <img src="img/logo.png" alt="The League of Extraordinary Packages" width="270" height="279">
+        </a>
+        <h1>The League of Extraordinary Packages is a group of developers who have banded together to build solid, well tested PHP packages using modern coding standards.</h1>
+        <ul class="features">
+            <li>We comply to the standards of the <a href="http://www.php-fig.org/">PHP-FIG</a>.</li>
+            <li>We adhere to the best-practices put forward by <a href="http://www.phptherightway.com/">PHP The "Right" Way</a>.</li>
+            <li>We distribute code via <a href="https://packagist.org/">Packagist</a> and <a href="http://getcomposer.org/">Composer</a>.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="packages">
+    <div class="center">
+        <h2>Our Packages</h2>
+        <ul>
+            <li class="headers">
+                <div class="name">
+                    <h3>Name</h3>
+                </div>
+                <div class="description">
+                    <h3>Description</h3>
+                </div>
+                <div class="project_lead">
+                    <h3><span>Project</span> Lead</h3>
+                </div>
+            </li>
+{% for package in site.data.packages %}
+            <li>
+                <div class="name"><a href="{{ package.website }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}</div>
+                <div class="description">{{ package.description }}</div>
+                <div class="project_lead"><a href="https://github.com/{{ package.author.username }}">{{ package.author.name }}</a></div>
+            </li>
+{% endfor %}
+        </ul>
+        <div class="work_in_progress">* a work-in-progress package</div>
+    </div>
+</div>
+
+<div class="quality">
+    <div class="center">
+        <div class="column one">
+            <h2>Our Definition of Quality</h2>
+            <div class="description">
+                Ask 100 developers what defines an awesome PHP package and you&rsquo;ll get a lot of different answers. That also sounds like a really long and boring task, so we&rsquo;ve come up with a list of rules that <em>we</em> think make a package awesome.
+            </div>
+            <div class="skeleton_project">
+                <a href="https://github.com/thephpleague/skeleton">View our skeleton project</a>
+            </div>
+        </div>
+        <div class="column two">
+            <ol>
+                <li>
+                    <p>Follow <a href="http://www.php-fig.org/psr/psr-2/">PSR-2</a>, we use <code>League</code> as our <a href="http://www.php-fig.org/psr/psr-0/">PSR-0</a> namespace.</p>
+                </li>
+                <li>
+                    <p>List on Packagist, we list with <code>league</code> as the vendor namespace.</p>
+                </li>
+                <li>
+                    <p>Shove code in a <code>src</code> folder.</p>
+                </li>
+                <li>
+                    <p>Write unit tests. Aim for at least 80% coverage for v1.0.</p>
+                </li>
+                <li>
+                    <p><a href="http://www.phpdoc.org/docs/latest/for-users/phpdoc-reference.html">DocBlock</a> all the things.</p>
+                </li>
+                <li>
+                    <p><a href="http://semver.org/">Semantic versioning</a> must be used to manage version numbers.</p>
+                </li>
+                <li>
+                    <p>Use <a href="https://travis-ci.org/">Travis-CI</a> to automatically check coding standards and run tests.</p>
+                </li>
+                <li>
+                    <p>Have an extensive <a href="https://github.com/thephpleague/skeleton/blob/master/README.md">README</a>.</p>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<div class="why">
+    <div class="center">
+        <h2>Why?</h2>
+        <div class="column one">
+            <p>We&rsquo;re doing this instead of releasing code under our personal accounts for a few reasons, but the main reason is this:</p>
+            <blockquote>A problem shared is a problem halved.</blockquote>
+            <p>Working together we take care of business quicker, can get more feedback and respond to issues and pull requests faster.</p>
+        </div>
+        <div class="column two">
+            <p>There are no plans to reinvent any wheels, unless those wheels are old, broken, unsafe or horrible to use. If the code cannot be installed with Composer, has an API written with BizZaroCapS, doesn&rsquo;t have a single unit-test, is actually broken or the lead developer has abandoned the project, then that is a problem which can most likely be solved with a fresh start, and we&rsquo;ll be on the case to make it as awesome as possible.</p>
+        </div>
+    </div>
+</div>
+
+<div class="invitation">
+    <div class="center">
+        <img src="img/stars.png" alt="Stars" width="125" height="33">
+        <h2>New Packages Welcome</h2>
+        <h3>Gain exposure. Meet new people. Work together.</h3>
+        <div class="column one">
+            <h4>Getting started</h4>
+            <p>If this sounds fun and you&rsquo;d like to join the group you can definitely do that. This is not some stuffy old-boys club where you have to be internet famous or an old friend, you just need to bring over (or start) at least one package that either complies with the rules, or intends to comply with the rules by the next major version.</p>
+            <h4>How to submit a package</h4>
+            <p>Probably the best way to submit a new package is by dropping a line to one of the existing package contributors on Twitter. See a complete list above under &ldquo;Our Packages&rdquo;.</p>
+        </div>
+        <div class="column two">
+            <h4>We&rsquo;re all about packages</h4>
+            <p>This group is about packages, and not about the people. To keep that clear - and to make sure people are joining for the right reasons - no members list will be posted, but we&rsquo;ll let you know who is in charge of packages so you can poke them with feedback.</p>
+            <h4>This is not the FIG</h4>
+            <p>We are not here to tell you what to do or how to do it - and contrary to popular belief neither are they. This is an open-source project started by a few friends who wanted a fun vendor name and will continue to grow as we release more and more awesome packages.</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-46050814-1', 'thephpleague.com');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>
