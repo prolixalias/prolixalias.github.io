@@ -20,7 +20,7 @@ title: Full Frontal Ingenuity
 <div class="introduction">
     <div class="center">
         <a href="" class="logo">
-            <img src="img/logo.png" alt="The League of Extraordinary Packages" width="270" height="279">
+            <img src="img/logo.png" alt="Full Frontal Ingenuity" width="270" height="279">
         </a>
         <h1>FFI's mission is to deliver high-quality, efficient technology solutions including IT Infrastructure Architecture, Strategy & Justification, Cost Benefit Analysis, Risk Assessment and Alternatives Evaluation... Thereby enabling companies and government institutions to meet their goals economically with measurable results.</h1>
         <ul class="features">
@@ -34,7 +34,8 @@ title: Full Frontal Ingenuity
 <div class="customers">
     <div class="center">
         <h2>Our Customers</h2>
-        <div class="work_in_progress">We are proud of every one of our customers and the successes we've shared. Here are just a few of our clients:"></div>
+
+        <div class="work_in_progress">We are proud of every one of our customers and the successes we've shared. Here are just a few of our clients:</div>
         <ul>
             <li class="headers">
                 <div class="name">
@@ -47,11 +48,11 @@ title: Full Frontal Ingenuity
                     <h3><span>Project</span> Lead</h3>
                 </div>
             </li>
-{% for package in site.data.packages %}
+{% for customer in site.data.customers %}
             <li>
-                <div class="name"><a href="{{ package.website }}">{{ package.name }}</a>{% unless package.complete %}*{% endunless %}</div>
-                <div class="description">{{ package.description }}</div>
-                <div class="project_lead"><a href="https://github.com/{{ package.author.username }}">{{ package.author.name }}</a></div>
+                <div class="name"><a href="{{ customer.website }}">{{ customer.name }}</a>{% unless customer.complete %}*{% endunless %}</div>
+                <div class="description">{{ customer.description }}</div>
+                <div class="project_lead"><a href="https://github.com/{{ customer.author.username }}">{{ customer.author.name }}</a></div>
             </li>
 {% endfor %}
         </ul>
@@ -118,7 +119,7 @@ title: Full Frontal Ingenuity
 <div class="invitation">
     <div class="center">
         <img src="img/stars.png" alt="Stars" width="125" height="33">
-        <h2>New Packages Welcome</h2>
+        <h2>New Talent Welcome</h2>
         <h3>Gain exposure. Meet new people. Work together.</h3>
         <div class="column one">
             <h4>Getting started</h4>
