@@ -1,8 +1,8 @@
 - name: USDA Forest Service
   repo: USFS
-  website: http://www.fs.fed.us/
+  website: http://www.fs.fed.us
   complete: true
-  description: Federal agency
+  description: Public forest land management
   author:
     name: Paul Talbot
     username: prolixalias
