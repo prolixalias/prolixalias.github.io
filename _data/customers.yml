@@ -1,80 +1,80 @@
-- name: US Forest Service
-  repo: color-extractor
-  website: https://github.com/thephpleague/color-extractor
+- name: USDA Forest Service
+  repo: USFS
+  website: http://www.fs.fed.us/
   complete: true
-  description: Extract colors from an image
+  description: Federal agency
   author:
-    name: Mathieu Lechat
-    username: MatTheCat
+    name: Paul Talbot
+    username: prolixalias
 
 - name: Wells Fargo
-  repo: csv
-  website: http://csv.thephpleague.com/
+  repo: WFC
+  website: http://www.wellsfargo.com
   complete: true
-  description: CSV data manipulation made easy in PHP
+  description: Financial services company
   author:
-    name: Nyamagana Butera Ignace
-    username: nyamsprod
+    name: Paul Talbot
+    username: prolixalias
 
 - name: General Motors
-  repo: event
-  website: http://github.com/thephpleague/event
+  repo: GM
+  website: http://gm.com
   complete: true
-  description: Event package
+  description: Automobile manufacturing
   author:
-    name: Frank de Jonge
-    username: FrenkyNet
+    name: Paul Talbot
+    username: prolixalias
 
 - name: JPMorgan Chase
-  repo: geotools
-  website: https://github.com/thephpleague/geotools
+  repo: JPMC
+  website: http://www.jpmorganchase.com
   complete: true
-  description: Perform geo-related tasks
+  description: Global financial services company
   author:
-    name: Antoine Corcy
-    username: toin0u
+    name: Paul Talbot
+    username: prolixalias
 
-- name: US DoD
-  repo: fractal
-  website: http://fractal.thephpleague.com
+- name:US Department of Defense
+  repo: DOD
+  website: http://www.defense.gov
   complete: true
-  description: Output complex, flexible, RESTful data structures
+  description: Military
   author:
-    name: Phil Sturgeon
-    username: philsturgeon
+    name: Paul Talbot
+    username: prolixalias
 
 - name: Ryba Marine Construction
-  repo: flysystem
-  website: http://flysystem.thephpleague.com/
+  repo: RMC
+  website: http://rybamarine.com
   complete: true
-  description: Abstraction for local and remote filesystems
+  description: Marine and specialty services
   author:
-    name: Frank de Jonge
-    username: FrenkyNet
+    name: Paul Talbot
+    username: prolixalias
 
 - name: Mission Point Resort
-  repo: monga
-  website: https://github.com/thephpleague/monga
+  repo: MPMI
+  website: http://www.missionpoint.com
   complete: true
-  description: Simple and swift MongoDB abstraction
+  description: Mackinac Island resort
   author:
-    name: Frank de Jonge
-    username: FrenkyNet
+    name: Andy Rynberg
+    username: arynberg
 
-- name: Encore Financial
-  repo: oauth1-client
-  website: https://github.com/thephpleague/oauth1-client
+- name: Encore Financial Group
+  repo: EFG
+  website: http://www.encorefinancialgroup.net
   complete: true
-  description: Integrate with OAuth 1.0 providers
+  description: Personal financial services
   author:
-    name: Ben Corlett
-    username: bencorlett
+    name: Paul Talbot
+    username: prolixalias
 
 - name: Unisys
-  repo: stack-robots
-  website: https://github.com/thephpleague/stack-robots
+  repo: UNISYS
+  website: http://unisys.com
   complete: true
-  description: A robots.txt StackPHP Middleware
+  description: IT Services
   author:
-    name: Don Gilbert
-    username: dongilbert
+    name: David Williams
+    username: dwill
