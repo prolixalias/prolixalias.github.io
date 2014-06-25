@@ -35,7 +35,7 @@ title: Full Frontal Ingenuity, LLC
     <div class="center">
         <h2>Our Customers</h2>
         <p>
-        <div class="work_in_progress">We are proud of every one of our customers and the shared successes. Here are just a few of our clients:</div>
+        <div class="work_in_progress">We are proud of every one of our customers and shared successes. A handful of clients are:</div>
         <ul>
             <li class="headers">
                 <div class="name">
@@ -52,18 +52,17 @@ title: Full Frontal Ingenuity, LLC
             <li>
                 <div class="name"><a href="{{ customer.website }}">{{ customer.name }}</a>{% unless customer.complete %}*{% endunless %}</div>
                 <div class="description">{{ customer.description }}</div>
-                <div class="project_lead"><a href="https://github.com/{{ customer.lead.username }}">{{ customer.lead.name }}</a></div>
+                <div class="project_lead"><a href="http://fullfrontalingenuity.com/team.html#{{ customer.lead.username }}">{{ customer.lead.name }}</a></div>
             </li>
 {% endfor %}
         </ul>
-        <div class="work_in_progress">We would like to add you to the list.</div>
     </div>
 </div>
 
 <div class="quality">
     <div class="center">
         <div class="column one">
-            <h2>Our Definition of Quality</h2>
+            <h2>Definition of Quality</h2>
             <div class="description">
                 Ask 100 developers what defines an awesome PHP package and you&rsquo;ll get a lot of different answers. That also sounds like a really long and boring task, so we&rsquo;ve come up with a list of rules that <em>we</em> think make a package awesome.
             </div>
