@@ -12,9 +12,9 @@ Jekyll-based instance.  To use, just install Jekyll  (if you haven't already):
 
 ... and then finally:
 
-    jekyll --server
+    jekyll serve
 
-Then open your browser and hit [http://localhost:5000](http://localhost:5000).
+Then open your browser and hit [http://localhost:4000](http://localhost:4000).
 
 That'll get you to the home page. The rest is all you!  See the [Jekyll docs](https://github.com/mojombo/jekyll/wiki) for details.
 
