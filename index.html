@@ -108,7 +108,7 @@ title: Full Frontal Ingenuity, LLC
 
 <div class="why">
     <div class="center">
-        <h2>The Team</h2>
+        <h2>Core Team</h2>
         <div class="column one">
             <p>We&rsquo;re doing this instead of releasing code under our personal accounts for a few reasons, but the main reason is this:</p>
             <blockquote>A problem shared is a problem halved.</blockquote>
@@ -116,6 +116,18 @@ title: Full Frontal Ingenuity, LLC
         </div>
         <div class="column two">
             <p>There are no plans to reinvent any wheels, unless those wheels are old, broken, unsafe or horrible to use. If the code cannot be installed with Composer, has an API written with BizZaroCapS, doesn&rsquo;t have a single unit-test, is actually broken or the lead developer has abandoned the project, then that is a problem which can most likely be solved with a fresh start, and we&rsquo;ll be on the case to make it as awesome as possible.</p>
+        </div>
+        <div class="teammembers">
+            <table border="1"><tr>
+{% for member in site.data.team %}
+            <td valign="top" width="200">
+                <div class="mugshot"><img src="img/{{ member.mugshot }}" alt="mugshot" width="125" height="125"></div>
+                <div class="name"><a href="{{ member.website }}">{{ member.name }}</a>
+                <div class="contribution">{{ member.contribution }}
+                <div class="bio">{{ member.bio }}</div>
+            </td>
+{% endfor %}
+            </tr></table>
         </div>
     </div>
 </div>
