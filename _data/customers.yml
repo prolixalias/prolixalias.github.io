@@ -1,17 +1,8 @@
-- name: USDA Forest Service
-  repo: USFS
-  website: http://www.fs.fed.us/
+- name: Encore Financial Group
+  repo: EFG
+  website: http://www.encorefinancialgroup.net/
   complete: true
-  description: Public forest land management
-  lead:
-    name: Paul Talbot
-    username: prolixalias
-
-- name: Wells Fargo
-  repo: WFC
-  website: http://www.wellsfargo.com/
-  complete: true
-  description: Financial services company
+  description: Personal finance
   lead:
     name: Paul Talbot
     username: prolixalias
@@ -34,24 +25,6 @@
     name: Paul Talbot
     username: prolixalias
 
-- name: US Department of Defense
-  repo: DOD
-  website: http://www.defense.gov/
-  complete: true
-  description: Military
-  lead:
-    name: Paul Talbot
-    username: prolixalias
-
-- name: Ryba Marine Construction
-  repo: RMC
-  website: http://rybamarine.com/
-  complete: true
-  description: Marine and specialty construction
-  lead:
-    name: Paul Talbot
-    username: prolixalias
-
 - name: Mission Point Resort
   repo: MPMI
   website: http://www.missionpoint.com/
@@ -61,11 +34,11 @@
     name: Andy Rynberg
     username: arynberg
 
-- name: Encore Financial Group
-  repo: EFG
-  website: http://www.encorefinancialgroup.net/
+- name: Ryba Marine Construction
+  repo: RMC
+  website: http://rybamarine.com/
   complete: true
-  description: Personal finance
+  description: Marine and specialty construction
   lead:
     name: Paul Talbot
     username: prolixalias
@@ -78,3 +51,31 @@
   lead:
     name: David Williams
     username: dwill
+
+- name: US Department of Defense
+  repo: DOD
+  website: http://www.defense.gov/
+  complete: true
+  description: Military
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
+- name: USDA Forest Service
+  repo: USFS
+  website: http://www.fs.fed.us/
+  complete: true
+  description: Public forest land management
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
+- name: Wells Fargo
+  repo: WFC
+  website: http://www.wellsfargo.com/
+  complete: true
+  description: Financial services company
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
