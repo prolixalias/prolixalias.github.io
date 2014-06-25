@@ -18,8 +18,6 @@ title: Full Frontal Ingenuity, LLC
 
 <body>
 
-{% include 'header' %}
-
 <div class="introduction">
     <div class="center">
         <a href="" class="logo">
@@ -147,8 +145,6 @@ title: Full Frontal Ingenuity, LLC
   ga('create', 'UA-33287620-3', 'fullfrontalingenuity.com');
   ga('send', 'pageview');
 </script>
-
-{% include 'footer' %}
 
 </body>
 </html>
