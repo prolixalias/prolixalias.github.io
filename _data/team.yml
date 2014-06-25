@@ -3,27 +3,32 @@
   website: https://github.com/prolixalias
   mugshot: paul.png
   certs: CNE, CPIA
+  bio: "Paul founded FFI in 1997."
 
 - name: David Williams
   contribution: "Infrastructure Architect"
   website: https://github.com/dwili
   mugshot: david.png
   certs: CNE, CCNA, CISSP
+  bio: "David has been in the network engineering field for 25 years."
 
 - name: Matt Russell
   contribution: "Project/Program Manager"
   website: http://cynerge.com
   mugshot: matt.png
   certs: CPM
+  bio: "Matt is PMI-certified with a strong IT background."
 
 - name: Andy
   contribution: "Field Technician, VoIP Engineer"
   website: https://github.com/andy
   mugshot: andy.png
   certs: CCVT
+  bio: "Andy has been implementing voice solutions for 20 years."
 
 - name: Bryan Belanger
   contribution: "SOA Architect, Automation Engineer"
   website: http://azcender.com
   mugshot: bryan.png
   certs: CPIA
+  bio: "Bryan started his career in application development in 1998. He has since focused on SOA and solutions architecture."
