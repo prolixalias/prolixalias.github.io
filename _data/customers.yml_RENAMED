@@ -1,6 +1,6 @@
 - name: USDA Forest Service
   repo: USFS
-  website: http://www.fs.fed.us
+  website: http://www.fs.fed.us/
   complete: true
   description: Public forest land management
   lead:
@@ -9,7 +9,7 @@
 
 - name: Wells Fargo
   repo: WFC
-  website: http://www.wellsfargo.com
+  website: http://www.wellsfargo.com/
   complete: true
   description: Financial services company
   lead:
@@ -18,7 +18,7 @@
 
 - name: General Motors
   repo: GM
-  website: http://gm.com
+  website: http://gm.com/
   complete: true
   description: Automobile manufacturing
   lead:
@@ -27,7 +27,7 @@
 
 - name: JPMorgan Chase
   repo: JPMC
-  website: http://www.jpmorganchase.com
+  website: http://www.jpmorganchase.com/
   complete: true
   description: Global financial services company
   lead:
@@ -36,7 +36,7 @@
 
 - name:US Department of Defense
   repo: DOD
-  website: http://www.defense.gov
+  website: http://www.defense.gov/
   complete: true
   description: Military
   lead:
@@ -45,7 +45,7 @@
 
 - name: Ryba Marine Construction
   repo: RMC
-  website: http://rybamarine.com
+  website: http://rybamarine.com/
   complete: true
   description: Marine and specialty construction
   lead:
@@ -54,7 +54,7 @@
 
 - name: Mission Point Resort
   repo: MPMI
-  website: http://www.missionpoint.com
+  website: http://www.missionpoint.com/
   complete: true
   description: Mackinac Island resort
   lead:
@@ -63,7 +63,7 @@
 
 - name: Encore Financial Group
   repo: EFG
-  website: http://www.encorefinancialgroup.net
+  website: http://www.encorefinancialgroup.net/
   complete: true
   description: Personal finance
   lead:
@@ -72,10 +72,9 @@
 
 - name: Unisys
   repo: UNISYS
-  website: http://unisys.com
+  website: http://unisys.com/
   complete: true
   description: IT services
   lead:
     name: David Williams
     username: dwill
-
