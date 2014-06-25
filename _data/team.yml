@@ -1,29 +1,29 @@
 - name: Paul Talbot
   contribution: "Principal Architect, President"
   website: https://github.com/prolixalias
-  image: paul.png
+  mugshot: paul.png
   bio: blah-blah-blah
 
 - name: David Williams
   contribution: "Infrastructure Architect"
   website: https://github.com/dwili
-  image: david.png
+  mugshot: david.png
   bio: blah-blah-blah
 
 - name: Matt Russell
   contribution: "Project/Program Manager"
   website: http://cynerge.com
-  image: matt.png
+  mugshot: matt.png
   bio: blah-blah-blah
 
 - name: Andy
   contribution: "Field Technician, VoIP Engineer"
   website: https://github.com/andy
-  image: andy.png
+  mugshot: andy.png
   bio: blah-blah-blah
 
 - name: Bryan Belanger
   contribution: "SOA Architect, Automation Engineer"
   website: http://azcender.com
-  image: bryan.png
+  mugshot: bryan.png
   bio: blah-blah-blah
