@@ -25,3 +25,12 @@
     name: Paul Talbot
     username: prolixalias
 
+- name: JPMorgan Chase
+  repo: JPMC
+  website: http://www.jpmorganchase.com/
+  complete: true
+  description: Global financial services company
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
