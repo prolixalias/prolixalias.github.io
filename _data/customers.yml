@@ -16,3 +16,12 @@
     name: Paul Talbot
     username: prolixalias
 
+- name: General Motors
+  repo: GM
+  website: http://gm.com/
+  complete: true
+  description: Automobile manufacturing
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
