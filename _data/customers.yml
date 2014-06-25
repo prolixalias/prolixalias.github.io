@@ -3,7 +3,7 @@
   website: http://www.fs.fed.us
   complete: true
   description: Public forest land management
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -12,7 +12,7 @@
   website: http://www.wellsfargo.com
   complete: true
   description: Financial services company
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -21,7 +21,7 @@
   website: http://gm.com
   complete: true
   description: Automobile manufacturing
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -30,7 +30,7 @@
   website: http://www.jpmorganchase.com
   complete: true
   description: Global financial services company
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -39,7 +39,7 @@
   website: http://www.defense.gov
   complete: true
   description: Military
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -48,7 +48,7 @@
   website: http://rybamarine.com
   complete: true
   description: Marine and specialty construction
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -57,7 +57,7 @@
   website: http://www.missionpoint.com
   complete: true
   description: Mackinac Island resort
-  author:
+  lead:
     name: Andy Rynberg
     username: arynberg
 
@@ -66,7 +66,7 @@
   website: http://www.encorefinancialgroup.net
   complete: true
   description: Personal finance
-  author:
+  lead:
     name: Paul Talbot
     username: prolixalias
 
@@ -75,6 +75,7 @@
   website: http://unisys.com
   complete: true
   description: IT services
-  author:
+  lead:
     name: David Williams
     username: dwill
+
