@@ -1,5 +1,5 @@
 ---
-title: Full Frontal Ingenuity
+title: Full Frontal Ingenuity, LLC
 ---
 <!DOCTYPE html>
 <html>
@@ -8,19 +8,20 @@ title: Full Frontal Ingenuity
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>{{ page.title }}</title>
     <meta name="description" content="FFI's mission is to deliver high-quality, efficient technology solutions including IT Infrastructure Architecture, Strategy & Justification, Cost Benefit Analysis, Risk Assessment and Alternatives Evaluation... Thereby enabling companies and government institutions to meet their goals economically with measurable results.">
-    <meta property="og:title" content="Full Frontal Ingenuity" />
+    <meta property="og:title" content="Full Frontal Ingenuity, LLC" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="http://fullfrontalingenuity.com" />
     <meta property="og:image" content="http://fullfrontalingenuity.com/img/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/all.css">
 </head>
+
 <body>
 
 <div class="introduction">
     <div class="center">
         <a href="" class="logo">
-            <img src="img/logo.png" alt="Full Frontal Ingenuity" width="270" height="279">
+          <img src="img/logo.png" alt="Full Frontal Ingenuity" width="270" height="279">
         </a>
         <h1>FFI's mission is to deliver high-quality, efficient technology solutions including IT Infrastructure Architecture, Strategy & Justification, Cost Benefit Analysis, Risk Assessment and Alternatives Evaluation... Thereby enabling companies and government institutions to meet their goals economically with measurable results.</h1>
         <p>
@@ -36,7 +37,7 @@ title: Full Frontal Ingenuity
     <div class="center">
         <h2>Our Customers</h2>
         <p>
-        <div class="work_in_progress">We are proud of every one of our customers and the successes we've shared. Here are just a few of our clients:</div>
+        <div class="work_in_progress">We are proud of every one of our customers and the successes we've shared. Here are just a few of our clients: </div>
         <ul>
             <li class="headers">
                 <div class="name">
@@ -53,7 +54,7 @@ title: Full Frontal Ingenuity
             <li>
                 <div class="name"><a href="{{ customer.website }}">{{ customer.name }}</a>{% unless customer.complete %}*{% endunless %}</div>
                 <div class="description">{{ customer.description }}</div>
-                <div class="project_lead"><a href="https://github.com/{{ customer.author.username }}">{{ customer.author.name }}</a></div>
+                <div class="project_lead"><a href="https://github.com/{{ customer.lead.username }}">{{ customer.lead.name }}</a></div>
             </li>
 {% endfor %}
         </ul>
