@@ -19,12 +19,12 @@
   certs: CPM
   bio: "Matt is PMI-certified with a strong IT background."
 
-- name: Andy
+- name: Andy Rynberg
   contribution: "Field/VoIP Engineer"
   website: https://github.com/andy
   mugshot: andy.png
   certs: CCVT
-  bio: "Andy has been implementing voice solutions for 20 years."
+  bio: "Andy has been implementing voice and data solutions for 20 years."
 
 - name: Bryan Belanger
   contribution: "SOA Architect, BPM, Automation"
