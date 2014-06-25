@@ -6,3 +6,13 @@
   lead:
     name: Paul Talbot
     username: prolixalias
+
+- name: Wells Fargo
+  repo: WFC
+  website: http://www.wellsfargo.com/
+  complete: true
+  description: Financial services company
+  lead:
+    name: Paul Talbot
+    username: prolixalias
+
