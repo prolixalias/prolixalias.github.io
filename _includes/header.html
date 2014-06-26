@@ -1,9 +1,9 @@
 <script>
 if (navigator.userAgent.search("MSIE") >= 0){
-    document.write('"MS Internet Explorer ');
+    document.write('<center>"It seems you're using Internet Explorer. We can help with that. ');
     var position = navigator.userAgent.search("MSIE") + 5;
     var end = navigator.userAgent.search("; Windows");
     var version = navigator.userAgent.substring(position,end);
-    document.write(version + '"');
+    document.write(version + '"</center>');
 }
 </script>
