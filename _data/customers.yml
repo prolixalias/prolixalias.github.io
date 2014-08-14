@@ -25,15 +25,6 @@
     name: Paul Talbot
     username: prolixalias
 
-- name: Mission Point Resort
-  repo: MPMI
-  website: http://www.missionpoint.com/
-  complete: true
-  description: Mackinac Island resort
-  lead:
-    name: Andy Rynberg
-    username: arynberg
-
 - name: Ryba Marine Construction
   repo: RMC
   website: http://rybamarine.com/
