@@ -4,8 +4,8 @@
   complete: true
   description: Personal finance
   lead:
-    name: Paul Talbot
-    username: prolixalias
+    name: Andy Rynberg
+    username: arynberg
 
 - name: General Motors
   repo: GM
@@ -58,8 +58,8 @@
   complete: true
   description: Public forest land management
   lead:
-    name: Paul Talbot
-    username: prolixalias
+    name: Bryan Belanger
+    username: azcender
 
 - name: Wells Fargo
   repo: WFC

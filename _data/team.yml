@@ -7,7 +7,7 @@
 
 - name: David Williams
   contribution: "Infrastructure Architect"
-  website: https://github.com/dwili
+  website: https://github.com/ttechsi
   mugshot: david.png
   certs: CNE, CCNA, CISSP
   bio: "David has been in the network engineering field for 25 years."
@@ -21,7 +21,7 @@
 
 - name: Andy Rynberg
   contribution: "Field/VoIP Engineer"
-  website: https://github.com/andy
+  website: http://www.networkingdesign.com/
   mugshot: andy.png
   certs: CCVT
   bio: "Andy has been implementing voice and data solutions for 20 years."
