@@ -1,3 +1,7 @@
 # robotstxt.org/
 
 User-agent: *
+
+Disallow: /_site
+Disallow: /_data
+Sitemap: http://www.fullfrontalingenuity.com/sitemap.xml
